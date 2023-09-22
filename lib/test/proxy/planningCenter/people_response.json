@@ -1,0 +1,1343 @@
+{
+    "links": {
+        "self": "https://api.planningcenteronline.com/people/v2/people?where[given_name]=%25%EC%83%81%25",
+        "next": "https://api.planningcenteronline.com/people/v2/people?offset=25&where[given_name]=%25%EC%83%81%25"
+    },
+    "data": [
+        {
+            "type": "Person",
+            "id": "88055392",
+            "attributes": {
+                "accounting_administrator": false,
+                "anniversary": null,
+                "avatar": "https://avatars.planningcenteronline.com/uploads/initials/SK.png",
+                "birthdate": "1985-06-15",
+                "can_create_forms": false,
+                "can_email_lists": false,
+                "child": false,
+                "created_at": "2021-02-06T03:48:50Z",
+                "demographic_avatar_url": "https://avatars.planningcenteronline.com/uploads/initials/SK.png",
+                "directory_status": "no_access",
+                "first_name": "Sangwoo",
+                "gender": "M",
+                "given_name": "김상우",
+                "grade": null,
+                "graduation_year": null,
+                "inactivated_at": "2023-08-01T07:00:00Z",
+                "last_name": "Kim",
+                "medical_notes": null,
+                "membership": "Pastor (교역자)",
+                "middle_name": null,
+                "name": "Sangwoo Kim",
+                "nickname": "Paul",
+                "passed_background_check": false,
+                "people_permissions": null,
+                "remote_id": null,
+                "school_type": null,
+                "site_administrator": false,
+                "status": "inactive",
+                "updated_at": "2023-09-16T20:54:57Z"
+            },
+            "relationships": {
+                "primary_campus": {
+                    "data": null
+                },
+                "gender": {
+                    "data": {
+                        "type": "Gender",
+                        "id": "7041722"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/people/v2/people/88055392",
+                "html": "https://people.planningcenteronline.com/people/AC88055392"
+            }
+        },
+        {
+            "type": "Person",
+            "id": "88055421",
+            "attributes": {
+                "accounting_administrator": false,
+                "anniversary": "1993-05-22",
+                "avatar": "https://avatars.planningcenteronline.com/uploads/person/88055421-1612583333/avatar.1.jpg",
+                "birthdate": "1966-03-08",
+                "can_create_forms": true,
+                "can_email_lists": false,
+                "child": false,
+                "created_at": "2021-02-06T03:48:53Z",
+                "demographic_avatar_url": "https://avatars.planningcenteronline.com/uploads/person/88055421-1612583333/avatar.1.jpg",
+                "directory_status": "no_access",
+                "first_name": "Sang",
+                "gender": "M",
+                "given_name": "염상용",
+                "grade": null,
+                "graduation_year": null,
+                "inactivated_at": null,
+                "last_name": "Yum",
+                "medical_notes": null,
+                "membership": "Elder (장로)",
+                "middle_name": null,
+                "name": "Sang Yum",
+                "nickname": null,
+                "passed_background_check": false,
+                "people_permissions": "Editor",
+                "remote_id": null,
+                "school_type": null,
+                "site_administrator": false,
+                "status": "active",
+                "updated_at": "2023-09-21T02:25:09Z"
+            },
+            "relationships": {
+                "primary_campus": {
+                    "data": null
+                },
+                "gender": {
+                    "data": {
+                        "type": "Gender",
+                        "id": "7041722"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/people/v2/people/88055421",
+                "html": "https://people.planningcenteronline.com/people/AC88055421"
+            }
+        },
+        {
+            "type": "Person",
+            "id": "88055431",
+            "attributes": {
+                "accounting_administrator": false,
+                "anniversary": null,
+                "avatar": "https://avatars.planningcenteronline.com/uploads/initials/SH.png",
+                "birthdate": "1957-09-13",
+                "can_create_forms": false,
+                "can_email_lists": false,
+                "child": false,
+                "created_at": "2021-02-06T03:48:55Z",
+                "demographic_avatar_url": "https://avatars.planningcenteronline.com/uploads/initials/SH.png",
+                "directory_status": "no_access",
+                "first_name": "Sangryun",
+                "gender": "F",
+                "given_name": "황상련",
+                "grade": null,
+                "graduation_year": null,
+                "inactivated_at": "2021-01-01T08:00:00Z",
+                "last_name": "Hwang",
+                "medical_notes": null,
+                "membership": null,
+                "middle_name": null,
+                "name": "Sangryun Hwang",
+                "nickname": null,
+                "passed_background_check": false,
+                "people_permissions": null,
+                "remote_id": null,
+                "school_type": null,
+                "site_administrator": false,
+                "status": "inactive",
+                "updated_at": "2022-09-16T18:58:33Z"
+            },
+            "relationships": {
+                "primary_campus": {
+                    "data": null
+                },
+                "gender": {
+                    "data": {
+                        "type": "Gender",
+                        "id": "7041735"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/people/v2/people/88055431",
+                "html": "https://people.planningcenteronline.com/people/AC88055431"
+            }
+        },
+        {
+            "type": "Person",
+            "id": "88055438",
+            "attributes": {
+                "accounting_administrator": false,
+                "anniversary": null,
+                "avatar": "https://avatars.planningcenteronline.com/uploads/initials/SL.png",
+                "birthdate": "1961-03-07",
+                "can_create_forms": true,
+                "can_email_lists": false,
+                "child": false,
+                "created_at": "2021-02-06T03:48:55Z",
+                "demographic_avatar_url": "https://avatars.planningcenteronline.com/uploads/initials/SL.png",
+                "directory_status": "no_access",
+                "first_name": "Sang Sig",
+                "gender": "M",
+                "given_name": "이상식",
+                "grade": null,
+                "graduation_year": null,
+                "inactivated_at": null,
+                "last_name": "Lee",
+                "medical_notes": null,
+                "membership": "Elder (장로)",
+                "middle_name": null,
+                "name": "Sang Sig Lee",
+                "nickname": null,
+                "passed_background_check": false,
+                "people_permissions": "Editor",
+                "remote_id": null,
+                "school_type": null,
+                "site_administrator": false,
+                "status": "active",
+                "updated_at": "2023-04-27T20:29:42Z"
+            },
+            "relationships": {
+                "primary_campus": {
+                    "data": null
+                },
+                "gender": {
+                    "data": {
+                        "type": "Gender",
+                        "id": "7041722"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/people/v2/people/88055438",
+                "html": "https://people.planningcenteronline.com/people/AC88055438"
+            }
+        },
+        {
+            "type": "Person",
+            "id": "88063159",
+            "attributes": {
+                "accounting_administrator": false,
+                "anniversary": null,
+                "avatar": "https://avatars.planningcenteronline.com/uploads/person/88063159-1612587821/avatar.1.png",
+                "birthdate": "1960-11-10",
+                "can_create_forms": false,
+                "can_email_lists": false,
+                "child": false,
+                "created_at": "2021-02-06T05:03:41Z",
+                "demographic_avatar_url": "https://avatars.planningcenteronline.com/uploads/person/88063159-1612587821/avatar.1.png",
+                "directory_status": "no_access",
+                "first_name": "Sangchul",
+                "gender": "M",
+                "given_name": "윤상철",
+                "grade": null,
+                "graduation_year": null,
+                "inactivated_at": null,
+                "last_name": "Yoon",
+                "medical_notes": null,
+                "membership": null,
+                "middle_name": null,
+                "name": "Sangchul Yoon",
+                "nickname": null,
+                "passed_background_check": false,
+                "people_permissions": null,
+                "remote_id": null,
+                "school_type": null,
+                "site_administrator": false,
+                "status": "active",
+                "updated_at": "2022-05-28T21:15:41Z"
+            },
+            "relationships": {
+                "primary_campus": {
+                    "data": null
+                },
+                "gender": {
+                    "data": {
+                        "type": "Gender",
+                        "id": "7041722"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/people/v2/people/88063159",
+                "html": "https://people.planningcenteronline.com/people/AC88063159"
+            }
+        },
+        {
+            "type": "Person",
+            "id": "88063170",
+            "attributes": {
+                "accounting_administrator": false,
+                "anniversary": null,
+                "avatar": "https://avatars.planningcenteronline.com/uploads/initials/SO.png",
+                "birthdate": "1949-05-14",
+                "can_create_forms": false,
+                "can_email_lists": false,
+                "child": false,
+                "created_at": "2021-02-06T05:03:42Z",
+                "demographic_avatar_url": "https://avatars.planningcenteronline.com/uploads/initials/SO.png",
+                "directory_status": "no_access",
+                "first_name": "Sang Seong",
+                "gender": "M",
+                "given_name": "오상성",
+                "grade": null,
+                "graduation_year": null,
+                "inactivated_at": null,
+                "last_name": "Oh",
+                "medical_notes": null,
+                "membership": null,
+                "middle_name": null,
+                "name": "Sang Seong Oh",
+                "nickname": null,
+                "passed_background_check": false,
+                "people_permissions": null,
+                "remote_id": null,
+                "school_type": null,
+                "site_administrator": false,
+                "status": "active",
+                "updated_at": "2021-02-06T05:03:42Z"
+            },
+            "relationships": {
+                "primary_campus": {
+                    "data": null
+                },
+                "gender": {
+                    "data": {
+                        "type": "Gender",
+                        "id": "7041722"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/people/v2/people/88063170",
+                "html": "https://people.planningcenteronline.com/people/AC88063170"
+            }
+        },
+        {
+            "type": "Person",
+            "id": "88084911",
+            "attributes": {
+                "accounting_administrator": false,
+                "anniversary": null,
+                "avatar": "https://avatars.planningcenteronline.com/uploads/initials/DL.png",
+                "birthdate": "1979-04-05",
+                "can_create_forms": false,
+                "can_email_lists": false,
+                "child": false,
+                "created_at": "2021-02-07T08:03:03Z",
+                "demographic_avatar_url": "https://avatars.planningcenteronline.com/uploads/initials/DL.png",
+                "directory_status": "no_access",
+                "first_name": "Daniel",
+                "gender": "M",
+                "given_name": "이상학",
+                "grade": null,
+                "graduation_year": null,
+                "inactivated_at": null,
+                "last_name": "Lee",
+                "medical_notes": null,
+                "membership": "Member (성도)",
+                "middle_name": null,
+                "name": "Daniel Lee",
+                "nickname": null,
+                "passed_background_check": false,
+                "people_permissions": null,
+                "remote_id": 120,
+                "school_type": null,
+                "site_administrator": false,
+                "status": "active",
+                "updated_at": "2023-06-13T23:18:59Z"
+            },
+            "relationships": {
+                "primary_campus": {
+                    "data": null
+                },
+                "gender": {
+                    "data": {
+                        "type": "Gender",
+                        "id": "7041722"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/people/v2/people/88084911",
+                "html": "https://people.planningcenteronline.com/people/AC88084911"
+            }
+        },
+        {
+            "type": "Person",
+            "id": "88084924",
+            "attributes": {
+                "accounting_administrator": false,
+                "anniversary": null,
+                "avatar": "https://avatars.planningcenteronline.com/uploads/initials/DL.png",
+                "birthdate": "1981-05-27",
+                "can_create_forms": false,
+                "can_email_lists": false,
+                "child": false,
+                "created_at": "2021-02-07T08:03:03Z",
+                "demographic_avatar_url": "https://avatars.planningcenteronline.com/uploads/initials/DL.png",
+                "directory_status": "no_access",
+                "first_name": "David",
+                "gender": "M",
+                "given_name": "이상훈",
+                "grade": null,
+                "graduation_year": null,
+                "inactivated_at": null,
+                "last_name": "Lee",
+                "medical_notes": null,
+                "membership": "Member (성도)",
+                "middle_name": null,
+                "name": "David Lee",
+                "nickname": null,
+                "passed_background_check": false,
+                "people_permissions": null,
+                "remote_id": 130,
+                "school_type": null,
+                "site_administrator": false,
+                "status": "active",
+                "updated_at": "2023-06-08T19:50:19Z"
+            },
+            "relationships": {
+                "primary_campus": {
+                    "data": null
+                },
+                "gender": {
+                    "data": {
+                        "type": "Gender",
+                        "id": "7041722"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/people/v2/people/88084924",
+                "html": "https://people.planningcenteronline.com/people/AC88084924"
+            }
+        },
+        {
+            "type": "Person",
+            "id": "88085061",
+            "attributes": {
+                "accounting_administrator": false,
+                "anniversary": null,
+                "avatar": "https://avatars.planningcenteronline.com/uploads/initials/cp.png",
+                "birthdate": "1996-05-18",
+                "can_create_forms": false,
+                "can_email_lists": false,
+                "child": true,
+                "created_at": "2021-02-07T08:03:06Z",
+                "demographic_avatar_url": "https://avatars.planningcenteronline.com/uploads/initials/cp.png",
+                "directory_status": "no_access",
+                "first_name": "Curtis",
+                "gender": "M",
+                "given_name": "박상신",
+                "grade": null,
+                "graduation_year": null,
+                "inactivated_at": null,
+                "last_name": "Park",
+                "medical_notes": null,
+                "membership": "URI Ministry (대학청년부)",
+                "middle_name": null,
+                "name": "Curtis Park",
+                "nickname": null,
+                "passed_background_check": false,
+                "people_permissions": null,
+                "remote_id": null,
+                "school_type": null,
+                "site_administrator": false,
+                "status": "active",
+                "updated_at": "2022-08-10T19:00:02Z"
+            },
+            "relationships": {
+                "primary_campus": {
+                    "data": null
+                },
+                "gender": {
+                    "data": {
+                        "type": "Gender",
+                        "id": "7041722"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/people/v2/people/88085061",
+                "html": "https://people.planningcenteronline.com/people/AC88085061"
+            }
+        },
+        {
+            "type": "Person",
+            "id": "88085183",
+            "attributes": {
+                "accounting_administrator": false,
+                "anniversary": null,
+                "avatar": "https://avatars.planningcenteronline.com/uploads/initials/HL.png",
+                "birthdate": "1974-02-23",
+                "can_create_forms": false,
+                "can_email_lists": false,
+                "child": false,
+                "created_at": "2021-02-07T08:03:11Z",
+                "demographic_avatar_url": "https://avatars.planningcenteronline.com/uploads/initials/HL.png",
+                "directory_status": "no_access",
+                "first_name": "Ho Sang",
+                "gender": "M",
+                "given_name": "이호상",
+                "grade": null,
+                "graduation_year": null,
+                "inactivated_at": "2023-03-24T07:00:00Z",
+                "last_name": "Lee",
+                "medical_notes": null,
+                "membership": null,
+                "middle_name": null,
+                "name": "Ho Sang Lee",
+                "nickname": null,
+                "passed_background_check": false,
+                "people_permissions": null,
+                "remote_id": null,
+                "school_type": null,
+                "site_administrator": false,
+                "status": "inactive",
+                "updated_at": "2023-03-24T17:54:27Z"
+            },
+            "relationships": {
+                "primary_campus": {
+                    "data": null
+                },
+                "gender": {
+                    "data": {
+                        "type": "Gender",
+                        "id": "7041722"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/people/v2/people/88085183",
+                "html": "https://people.planningcenteronline.com/people/AC88085183"
+            }
+        },
+        {
+            "type": "Person",
+            "id": "88085509",
+            "attributes": {
+                "accounting_administrator": false,
+                "anniversary": null,
+                "avatar": "https://avatars.planningcenteronline.com/uploads/person/88085509-1612685000/avatar.1.png",
+                "birthdate": "1970-04-13",
+                "can_create_forms": false,
+                "can_email_lists": false,
+                "child": false,
+                "created_at": "2021-02-07T08:03:20Z",
+                "demographic_avatar_url": "https://avatars.planningcenteronline.com/uploads/person/88085509-1612685000/avatar.1.png",
+                "directory_status": "no_access",
+                "first_name": "Sanghoon",
+                "gender": "M",
+                "given_name": "이상훈",
+                "grade": null,
+                "graduation_year": null,
+                "inactivated_at": "2022-05-31T07:00:00Z",
+                "last_name": "Lee",
+                "medical_notes": null,
+                "membership": null,
+                "middle_name": null,
+                "name": "Sanghoon Lee",
+                "nickname": null,
+                "passed_background_check": false,
+                "people_permissions": null,
+                "remote_id": null,
+                "school_type": null,
+                "site_administrator": false,
+                "status": "inactive",
+                "updated_at": "2022-05-31T20:49:10Z"
+            },
+            "relationships": {
+                "primary_campus": {
+                    "data": null
+                },
+                "gender": {
+                    "data": {
+                        "type": "Gender",
+                        "id": "7041722"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/people/v2/people/88085509",
+                "html": "https://people.planningcenteronline.com/people/AC88085509"
+            }
+        },
+        {
+            "type": "Person",
+            "id": "88085511",
+            "attributes": {
+                "accounting_administrator": false,
+                "anniversary": null,
+                "avatar": "https://avatars.planningcenteronline.com/uploads/person/88085511-1612685000/avatar.1.jpg",
+                "birthdate": "1975-06-11",
+                "can_create_forms": false,
+                "can_email_lists": false,
+                "child": false,
+                "created_at": "2021-02-07T08:03:20Z",
+                "demographic_avatar_url": "https://avatars.planningcenteronline.com/uploads/person/88085511-1612685000/avatar.1.jpg",
+                "directory_status": "no_access",
+                "first_name": "Nick",
+                "gender": "M",
+                "given_name": "이상우",
+                "grade": null,
+                "graduation_year": null,
+                "inactivated_at": "2021-11-20T16:34:18Z",
+                "last_name": "Lee",
+                "medical_notes": null,
+                "membership": null,
+                "middle_name": null,
+                "name": "Nick Lee",
+                "nickname": null,
+                "passed_background_check": false,
+                "people_permissions": null,
+                "remote_id": null,
+                "school_type": null,
+                "site_administrator": false,
+                "status": "inactive",
+                "updated_at": "2021-11-20T16:34:18Z"
+            },
+            "relationships": {
+                "primary_campus": {
+                    "data": null
+                },
+                "gender": {
+                    "data": {
+                        "type": "Gender",
+                        "id": "7041722"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/people/v2/people/88085511",
+                "html": "https://people.planningcenteronline.com/people/AC88085511"
+            }
+        },
+        {
+            "type": "Person",
+            "id": "88085517",
+            "attributes": {
+                "accounting_administrator": false,
+                "anniversary": null,
+                "avatar": "https://avatars.planningcenteronline.com/uploads/initials/SY.png",
+                "birthdate": "1975-04-13",
+                "can_create_forms": false,
+                "can_email_lists": false,
+                "child": false,
+                "created_at": "2021-02-07T08:03:20Z",
+                "demographic_avatar_url": "https://avatars.planningcenteronline.com/uploads/initials/SY.png",
+                "directory_status": "no_access",
+                "first_name": "Sangcheol",
+                "gender": "M",
+                "given_name": "유상철",
+                "grade": null,
+                "graduation_year": null,
+                "inactivated_at": null,
+                "last_name": "Yu",
+                "medical_notes": null,
+                "membership": null,
+                "middle_name": null,
+                "name": "Sangcheol Yu",
+                "nickname": null,
+                "passed_background_check": false,
+                "people_permissions": null,
+                "remote_id": null,
+                "school_type": null,
+                "site_administrator": false,
+                "status": "active",
+                "updated_at": "2021-02-07T08:03:21Z"
+            },
+            "relationships": {
+                "primary_campus": {
+                    "data": null
+                },
+                "gender": {
+                    "data": {
+                        "type": "Gender",
+                        "id": "7041722"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/people/v2/people/88085517",
+                "html": "https://people.planningcenteronline.com/people/AC88085517"
+            }
+        },
+        {
+            "type": "Person",
+            "id": "88085526",
+            "attributes": {
+                "accounting_administrator": false,
+                "anniversary": null,
+                "avatar": "https://avatars.planningcenteronline.com/uploads/initials/SP.png",
+                "birthdate": "1972-04-02",
+                "can_create_forms": false,
+                "can_email_lists": false,
+                "child": false,
+                "created_at": "2021-02-07T08:03:20Z",
+                "demographic_avatar_url": "https://avatars.planningcenteronline.com/uploads/initials/SP.png",
+                "directory_status": "no_access",
+                "first_name": "Sangjoon",
+                "gender": "M",
+                "given_name": "박상준",
+                "grade": null,
+                "graduation_year": null,
+                "inactivated_at": null,
+                "last_name": "Park",
+                "medical_notes": null,
+                "membership": null,
+                "middle_name": null,
+                "name": "Sangjoon Park",
+                "nickname": null,
+                "passed_background_check": false,
+                "people_permissions": null,
+                "remote_id": null,
+                "school_type": null,
+                "site_administrator": false,
+                "status": "active",
+                "updated_at": "2022-05-28T21:04:21Z"
+            },
+            "relationships": {
+                "primary_campus": {
+                    "data": null
+                },
+                "gender": {
+                    "data": {
+                        "type": "Gender",
+                        "id": "7041722"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/people/v2/people/88085526",
+                "html": "https://people.planningcenteronline.com/people/AC88085526"
+            }
+        },
+        {
+            "type": "Person",
+            "id": "88085531",
+            "attributes": {
+                "accounting_administrator": false,
+                "anniversary": null,
+                "avatar": "https://avatars.planningcenteronline.com/uploads/person/88085531-1612685001/avatar.1.jpg",
+                "birthdate": "1977-03-28",
+                "can_create_forms": false,
+                "can_email_lists": false,
+                "child": false,
+                "created_at": "2021-02-07T08:03:21Z",
+                "demographic_avatar_url": "https://avatars.planningcenteronline.com/uploads/person/88085531-1612685001/avatar.1.jpg",
+                "directory_status": "no_access",
+                "first_name": "Sanghyun",
+                "gender": "F",
+                "given_name": "김상현",
+                "grade": null,
+                "graduation_year": null,
+                "inactivated_at": null,
+                "last_name": "Kim",
+                "medical_notes": null,
+                "membership": "Member (성도)",
+                "middle_name": null,
+                "name": "Sanghyun Kim",
+                "nickname": null,
+                "passed_background_check": false,
+                "people_permissions": null,
+                "remote_id": null,
+                "school_type": null,
+                "site_administrator": false,
+                "status": "active",
+                "updated_at": "2023-05-24T18:19:26Z"
+            },
+            "relationships": {
+                "primary_campus": {
+                    "data": null
+                },
+                "gender": {
+                    "data": {
+                        "type": "Gender",
+                        "id": "7041735"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/people/v2/people/88085531",
+                "html": "https://people.planningcenteronline.com/people/AC88085531"
+            }
+        },
+        {
+            "type": "Person",
+            "id": "88085534",
+            "attributes": {
+                "accounting_administrator": false,
+                "anniversary": null,
+                "avatar": "https://avatars.planningcenteronline.com/uploads/initials/SS.png",
+                "birthdate": "1969-06-28",
+                "can_create_forms": false,
+                "can_email_lists": false,
+                "child": false,
+                "created_at": "2021-02-07T08:03:21Z",
+                "demographic_avatar_url": "https://avatars.planningcenteronline.com/uploads/initials/SS.png",
+                "directory_status": "no_access",
+                "first_name": "Sanghun",
+                "gender": "M",
+                "given_name": "성상헌",
+                "grade": null,
+                "graduation_year": null,
+                "inactivated_at": "2021-01-01T08:00:00Z",
+                "last_name": "Sung",
+                "medical_notes": null,
+                "membership": "Decon (집사)",
+                "middle_name": null,
+                "name": "Sanghun Sung",
+                "nickname": null,
+                "passed_background_check": false,
+                "people_permissions": null,
+                "remote_id": null,
+                "school_type": null,
+                "site_administrator": false,
+                "status": "inactive",
+                "updated_at": "2021-06-14T16:44:27Z"
+            },
+            "relationships": {
+                "primary_campus": {
+                    "data": null
+                },
+                "gender": {
+                    "data": {
+                        "type": "Gender",
+                        "id": "7041722"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/people/v2/people/88085534",
+                "html": "https://people.planningcenteronline.com/people/AC88085534"
+            }
+        },
+        {
+            "type": "Person",
+            "id": "88085541",
+            "attributes": {
+                "accounting_administrator": false,
+                "anniversary": null,
+                "avatar": "https://avatars.planningcenteronline.com/uploads/person/88085541-1612685001/avatar.1.jpg",
+                "birthdate": "1974-12-17",
+                "can_create_forms": false,
+                "can_email_lists": false,
+                "child": false,
+                "created_at": "2021-02-07T08:03:21Z",
+                "demographic_avatar_url": "https://avatars.planningcenteronline.com/uploads/person/88085541-1612685001/avatar.1.jpg",
+                "directory_status": "no_access",
+                "first_name": "Sanghee",
+                "gender": "F",
+                "given_name": "유상희",
+                "grade": null,
+                "graduation_year": null,
+                "inactivated_at": "2022-05-31T07:00:00Z",
+                "last_name": "Yoo",
+                "medical_notes": null,
+                "membership": null,
+                "middle_name": null,
+                "name": "Sanghee Yoo",
+                "nickname": null,
+                "passed_background_check": false,
+                "people_permissions": null,
+                "remote_id": null,
+                "school_type": null,
+                "site_administrator": false,
+                "status": "inactive",
+                "updated_at": "2022-05-31T20:49:03Z"
+            },
+            "relationships": {
+                "primary_campus": {
+                    "data": null
+                },
+                "gender": {
+                    "data": {
+                        "type": "Gender",
+                        "id": "7041735"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/people/v2/people/88085541",
+                "html": "https://people.planningcenteronline.com/people/AC88085541"
+            }
+        },
+        {
+            "type": "Person",
+            "id": "88085543",
+            "attributes": {
+                "accounting_administrator": false,
+                "anniversary": null,
+                "avatar": "https://avatars.planningcenteronline.com/uploads/initials/SJ.png",
+                "birthdate": "1972-08-02",
+                "can_create_forms": false,
+                "can_email_lists": false,
+                "child": false,
+                "created_at": "2021-02-07T08:03:21Z",
+                "demographic_avatar_url": "https://avatars.planningcenteronline.com/uploads/initials/SJ.png",
+                "directory_status": "no_access",
+                "first_name": "Sangjoon",
+                "gender": "M",
+                "given_name": "정상준",
+                "grade": null,
+                "graduation_year": null,
+                "inactivated_at": null,
+                "last_name": "Jung",
+                "medical_notes": null,
+                "membership": null,
+                "middle_name": null,
+                "name": "Sangjoon Jung",
+                "nickname": null,
+                "passed_background_check": false,
+                "people_permissions": null,
+                "remote_id": null,
+                "school_type": null,
+                "site_administrator": false,
+                "status": "active",
+                "updated_at": "2022-07-09T17:40:58Z"
+            },
+            "relationships": {
+                "primary_campus": {
+                    "data": null
+                },
+                "gender": {
+                    "data": {
+                        "type": "Gender",
+                        "id": "7041722"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/people/v2/people/88085543",
+                "html": "https://people.planningcenteronline.com/people/AC88085543"
+            }
+        },
+        {
+            "type": "Person",
+            "id": "88085566",
+            "attributes": {
+                "accounting_administrator": false,
+                "anniversary": null,
+                "avatar": "https://avatars.planningcenteronline.com/uploads/person/88085566-1612685001/avatar.3.jpg",
+                "birthdate": "1981-05-12",
+                "can_create_forms": false,
+                "can_email_lists": false,
+                "child": false,
+                "created_at": "2021-02-07T08:03:21Z",
+                "demographic_avatar_url": "https://avatars.planningcenteronline.com/uploads/person/88085566-1612685001/avatar.3.jpg",
+                "directory_status": "no_access",
+                "first_name": "Sangbum",
+                "gender": "M",
+                "given_name": "조상범",
+                "grade": null,
+                "graduation_year": null,
+                "inactivated_at": null,
+                "last_name": "Cho",
+                "medical_notes": null,
+                "membership": null,
+                "middle_name": null,
+                "name": "Sangbum Cho",
+                "nickname": null,
+                "passed_background_check": false,
+                "people_permissions": null,
+                "remote_id": null,
+                "school_type": null,
+                "site_administrator": false,
+                "status": "active",
+                "updated_at": "2021-02-20T14:52:28Z"
+            },
+            "relationships": {
+                "primary_campus": {
+                    "data": null
+                },
+                "gender": {
+                    "data": {
+                        "type": "Gender",
+                        "id": "7041722"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/people/v2/people/88085566",
+                "html": "https://people.planningcenteronline.com/people/AC88085566"
+            }
+        },
+        {
+            "type": "Person",
+            "id": "88085574",
+            "attributes": {
+                "accounting_administrator": false,
+                "anniversary": null,
+                "avatar": "https://avatars.planningcenteronline.com/uploads/person/88085574-1612685001/avatar.1.jpg",
+                "birthdate": "1885-02-22",
+                "can_create_forms": true,
+                "can_email_lists": false,
+                "child": false,
+                "created_at": "2021-02-07T08:03:21Z",
+                "demographic_avatar_url": "https://avatars.planningcenteronline.com/uploads/person/88085574-1612685001/avatar.1.jpg",
+                "directory_status": "no_access",
+                "first_name": "Sangwook",
+                "gender": "M",
+                "given_name": "정상욱",
+                "grade": null,
+                "graduation_year": null,
+                "inactivated_at": null,
+                "last_name": "Jeong",
+                "medical_notes": null,
+                "membership": "Light Keeper (등대지기)",
+                "middle_name": null,
+                "name": "Sangwook Jeong",
+                "nickname": null,
+                "passed_background_check": false,
+                "people_permissions": "Viewer",
+                "remote_id": null,
+                "school_type": null,
+                "site_administrator": false,
+                "status": "active",
+                "updated_at": "2023-05-24T18:29:34Z"
+            },
+            "relationships": {
+                "primary_campus": {
+                    "data": null
+                },
+                "gender": {
+                    "data": {
+                        "type": "Gender",
+                        "id": "7041722"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/people/v2/people/88085574",
+                "html": "https://people.planningcenteronline.com/people/AC88085574"
+            }
+        },
+        {
+            "type": "Person",
+            "id": "88085579",
+            "attributes": {
+                "accounting_administrator": false,
+                "anniversary": null,
+                "avatar": "https://avatars.planningcenteronline.com/uploads/initials/SP.png",
+                "birthdate": "1970-06-26",
+                "can_create_forms": false,
+                "can_email_lists": false,
+                "child": false,
+                "created_at": "2021-02-07T08:03:21Z",
+                "demographic_avatar_url": "https://avatars.planningcenteronline.com/uploads/initials/SP.png",
+                "directory_status": "no_access",
+                "first_name": "Sang Bin",
+                "gender": "M",
+                "given_name": "박상빈",
+                "grade": null,
+                "graduation_year": null,
+                "inactivated_at": "2021-03-15T07:00:00Z",
+                "last_name": "Park",
+                "medical_notes": null,
+                "membership": null,
+                "middle_name": null,
+                "name": "Sang Bin Park",
+                "nickname": null,
+                "passed_background_check": false,
+                "people_permissions": null,
+                "remote_id": null,
+                "school_type": null,
+                "site_administrator": false,
+                "status": "inactive",
+                "updated_at": "2022-09-16T18:12:44Z"
+            },
+            "relationships": {
+                "primary_campus": {
+                    "data": null
+                },
+                "gender": {
+                    "data": {
+                        "type": "Gender",
+                        "id": "7041722"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/people/v2/people/88085579",
+                "html": "https://people.planningcenteronline.com/people/AC88085579"
+            }
+        },
+        {
+            "type": "Person",
+            "id": "88085584",
+            "attributes": {
+                "accounting_administrator": false,
+                "anniversary": null,
+                "avatar": "https://avatars.planningcenteronline.com/uploads/initials/SL.png",
+                "birthdate": "1969-05-14",
+                "can_create_forms": false,
+                "can_email_lists": false,
+                "child": false,
+                "created_at": "2021-02-07T08:03:21Z",
+                "demographic_avatar_url": "https://avatars.planningcenteronline.com/uploads/initials/SL.png",
+                "directory_status": "no_access",
+                "first_name": "Sang Jun",
+                "gender": "M",
+                "given_name": "이상준",
+                "grade": null,
+                "graduation_year": null,
+                "inactivated_at": null,
+                "last_name": "Lee",
+                "medical_notes": null,
+                "membership": "Member (성도)",
+                "middle_name": null,
+                "name": "Sang Jun Lee",
+                "nickname": null,
+                "passed_background_check": false,
+                "people_permissions": null,
+                "remote_id": null,
+                "school_type": null,
+                "site_administrator": false,
+                "status": "active",
+                "updated_at": "2023-06-08T20:09:48Z"
+            },
+            "relationships": {
+                "primary_campus": {
+                    "data": null
+                },
+                "gender": {
+                    "data": {
+                        "type": "Gender",
+                        "id": "7041722"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/people/v2/people/88085584",
+                "html": "https://people.planningcenteronline.com/people/AC88085584"
+            }
+        },
+        {
+            "type": "Person",
+            "id": "88085594",
+            "attributes": {
+                "accounting_administrator": false,
+                "anniversary": null,
+                "avatar": "https://avatars.planningcenteronline.com/uploads/person/88085594-1612685001/avatar.1.jpg",
+                "birthdate": "1977-04-22",
+                "can_create_forms": false,
+                "can_email_lists": false,
+                "child": false,
+                "created_at": "2021-02-07T08:03:21Z",
+                "demographic_avatar_url": "https://avatars.planningcenteronline.com/uploads/person/88085594-1612685001/avatar.1.jpg",
+                "directory_status": "no_access",
+                "first_name": "Sangtae",
+                "gender": "M",
+                "given_name": "김상태",
+                "grade": null,
+                "graduation_year": null,
+                "inactivated_at": null,
+                "last_name": "Kim",
+                "medical_notes": null,
+                "membership": null,
+                "middle_name": null,
+                "name": "Sangtae Kim",
+                "nickname": null,
+                "passed_background_check": false,
+                "people_permissions": null,
+                "remote_id": null,
+                "school_type": null,
+                "site_administrator": false,
+                "status": "active",
+                "updated_at": "2023-06-11T17:22:18Z"
+            },
+            "relationships": {
+                "primary_campus": {
+                    "data": null
+                },
+                "gender": {
+                    "data": {
+                        "type": "Gender",
+                        "id": "7041722"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/people/v2/people/88085594",
+                "html": "https://people.planningcenteronline.com/people/AC88085594"
+            }
+        },
+        {
+            "type": "Person",
+            "id": "88085648",
+            "attributes": {
+                "accounting_administrator": false,
+                "anniversary": null,
+                "avatar": "https://avatars.planningcenteronline.com/uploads/initials/TC.png",
+                "birthdate": "1965-01-25",
+                "can_create_forms": false,
+                "can_email_lists": false,
+                "child": false,
+                "created_at": "2021-02-07T08:03:23Z",
+                "demographic_avatar_url": "https://avatars.planningcenteronline.com/uploads/initials/TC.png",
+                "directory_status": "no_access",
+                "first_name": "Timothy",
+                "gender": "M",
+                "given_name": "전상민",
+                "grade": null,
+                "graduation_year": null,
+                "inactivated_at": "2021-09-22T07:00:00Z",
+                "last_name": "Chun",
+                "medical_notes": null,
+                "membership": null,
+                "middle_name": null,
+                "name": "Timothy Chun",
+                "nickname": null,
+                "passed_background_check": false,
+                "people_permissions": null,
+                "remote_id": null,
+                "school_type": null,
+                "site_administrator": false,
+                "status": "inactive",
+                "updated_at": "2021-11-07T16:21:45Z"
+            },
+            "relationships": {
+                "primary_campus": {
+                    "data": null
+                },
+                "gender": {
+                    "data": {
+                        "type": "Gender",
+                        "id": "7041722"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/people/v2/people/88085648",
+                "html": "https://people.planningcenteronline.com/people/AC88085648"
+            }
+        },
+        {
+            "type": "Person",
+            "id": "88085656",
+            "attributes": {
+                "accounting_administrator": false,
+                "anniversary": null,
+                "avatar": "https://avatars.planningcenteronline.com/uploads/person/88085656-1612685003/avatar.1.jpg",
+                "birthdate": "1960-07-04",
+                "can_create_forms": false,
+                "can_email_lists": false,
+                "child": false,
+                "created_at": "2021-02-07T08:03:23Z",
+                "demographic_avatar_url": "https://avatars.planningcenteronline.com/uploads/person/88085656-1612685003/avatar.1.jpg",
+                "directory_status": "no_access",
+                "first_name": "Sang",
+                "gender": "F",
+                "given_name": "정상희",
+                "grade": null,
+                "graduation_year": null,
+                "inactivated_at": null,
+                "last_name": "Chung",
+                "medical_notes": null,
+                "membership": "Member (성도)",
+                "middle_name": null,
+                "name": "Sang Chung",
+                "nickname": null,
+                "passed_background_check": false,
+                "people_permissions": null,
+                "remote_id": null,
+                "school_type": null,
+                "site_administrator": false,
+                "status": "active",
+                "updated_at": "2023-09-18T02:35:58Z"
+            },
+            "relationships": {
+                "primary_campus": {
+                    "data": null
+                },
+                "gender": {
+                    "data": {
+                        "type": "Gender",
+                        "id": "7041735"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.planningcenteronline.com/people/v2/people/88085656",
+                "html": "https://people.planningcenteronline.com/people/AC88085656"
+            }
+        }
+    ],
+    "included": [],
+    "meta": {
+        "total_count": 36,
+        "count": 25,
+        "next": {
+            "offset": 25
+        },
+        "can_order_by": [
+            "given_name",
+            "first_name",
+            "nickname",
+            "middle_name",
+            "last_name",
+            "birthdate",
+            "anniversary",
+            "gender",
+            "grade",
+            "child",
+            "graduation_year",
+            "site_administrator",
+            "accounting_administrator",
+            "people_permissions",
+            "membership",
+            "inactivated_at",
+            "status",
+            "created_at",
+            "updated_at",
+            "remote_id"
+        ],
+        "can_query_by": [
+            "given_name",
+            "first_name",
+            "nickname",
+            "middle_name",
+            "last_name",
+            "birthdate",
+            "anniversary",
+            "gender",
+            "grade",
+            "child",
+            "graduation_year",
+            "site_administrator",
+            "accounting_administrator",
+            "people_permissions",
+            "membership",
+            "inactivated_at",
+            "status",
+            "medical_notes",
+            "created_at",
+            "updated_at",
+            "search_name",
+            "search_phone_number",
+            "search_phone_number_e164",
+            "search_name_or_email",
+            "search_name_or_email_or_phone_number",
+            "remote_id",
+            "id"
+        ],
+        "can_include": [
+            "addresses",
+            "emails",
+            "field_data",
+            "households",
+            "inactive_reason",
+            "marital_status",
+            "name_prefix",
+            "name_suffix",
+            "organization",
+            "person_apps",
+            "phone_numbers",
+            "platform_notifications",
+            "primary_campus",
+            "school",
+            "social_profiles"
+        ],
+        "can_filter": [
+            "created_since",
+            "admins",
+            "organization_admins"
+        ],
+        "parent": {
+            "id": "312508",
+            "type": "Organization"
+        }
+    }
+}

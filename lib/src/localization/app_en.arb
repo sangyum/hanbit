@@ -1,0 +1,6 @@
+{
+  "appTitle": "hanbit_directory",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}
