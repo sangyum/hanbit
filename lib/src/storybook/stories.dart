@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hanbit_directory/src/models/contact.dart';
-import 'package:hanbit_directory/src/screens/directory_screen.dart';
+import 'package:hanbit_directory/src/screens/directory/screen.dart';
+import 'package:hanbit_directory/src/storybook/mock_search_people.dart';
 import 'package:hanbit_directory/src/widgets/contact_tile.dart';
 import 'package:hanbit_directory/src/widgets/contact_tile_list.dart';
 import 'package:storybook_flutter/storybook_flutter.dart';
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
     var stories = [
       Story(
           name: "Screens/DirectoryScreen",
-          builder: (context) => const DirectoryScreen()),
+          builder: (context) => DirectoryScreen(MockSearchPeople())),
       Story(
         name: 'Widgets/ContactTile',
         builder: (context) => Scaffold(
@@ -46,7 +47,7 @@ class MyApp extends StatelessWidget {
             child: ContactTileList(contacts),
           ),
         ),
-      )
+      ),
     ];
 
     return Storybook(stories: stories);
