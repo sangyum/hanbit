@@ -24,8 +24,18 @@ class ContactTile extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text('${contact.koreanName} (${contact.englishName})'),
-              Text(contact.email),
-              Text(contact.phoneNumber),
+              Column(
+                children: contact.emails
+                    .map(
+                        (email) => Text('${email.address} (${email.location})'))
+                    .toList(),
+              ),
+              Column(
+                children: contact.phoneNumbers
+                    .map((phoneNumber) =>
+                        Text('${phoneNumber.number} (${phoneNumber.location})'))
+                    .toList(),
+              )
             ],
           ),
         ),

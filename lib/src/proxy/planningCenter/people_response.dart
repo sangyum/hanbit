@@ -24,6 +24,17 @@ class PeopleResponse {
       metadata[attribute.id] = attribute;
     }
   }
+
+  List<T> get<T extends Metadata>(List<String> ids) {
+    return ids.map((id) => metadata[id] as T).toList();
+  }
+
+  T? getPrimary<T extends Metadata>(List<String> ids) {
+    return ids
+        .map((id) => metadata[id] as T)
+        .where((element) => element.primary)
+        .firstOrNull;
+  }
 }
 
 class Links {
@@ -43,6 +54,7 @@ class Person {
   late String type;
   late String id;
   late Attributes attributes;
+  late Relationships relationships;
   late Links links;
 
   Person(this.type, this.id, this.attributes, this.links);
@@ -51,6 +63,7 @@ class Person {
     type = json['type'];
     id = json['id'];
     attributes = Attributes.fromJson(json['attributes']);
+    relationships = Relationships.fromJson(json['relationships']);
     links = Links.fromJson(json['links']);
   }
 }
@@ -70,37 +83,63 @@ class Attributes {
         englishName = '${json['first_name']} ${json['last_name']}';
 }
 
+class Relationships {
+  late List<String> emailIds;
+  late List<String> phoneNumberIds;
+
+  Relationships(this.emailIds, this.phoneNumberIds);
+
+  Relationships.fromJson(Map<String, dynamic> json) {
+    for (String key in json.keys) {
+      if (key == 'emails' || key == 'phone_numbers') {
+        var dataList = json[key]['data'] as List<dynamic>;
+
+        if (key == 'emails') {
+          emailIds = dataList
+              .map((e) => e as Map<String, dynamic>)
+              .map((e) => e['id'] as String)
+              .toList();
+        } else {
+          phoneNumberIds = dataList
+              .map((e) => e as Map<String, dynamic>)
+              .map((e) => e['id'] as String)
+              .toList();
+        }
+      }
+    }
+  }
+}
+
 abstract class Metadata {
   final String id;
   final String type;
+  final bool primary;
+  final String location;
 
-  Metadata(this.id, this.type);
+  Metadata(this.id, this.type, this.primary, this.location);
 }
 
 class Email extends Metadata {
   final String address;
-  final String location;
-  final bool primary;
 
-  Email(String id, String type, this.address, this.location, this.primary)
-      : super(id, type);
+  Email(String id, String type, bool primary, this.address, location)
+      : super(id, type, primary, location);
 
   Email.fromJson(Map<String, dynamic> json)
       : address = json['attributes']['address'],
-        location = json['attributes']['location'],
-        primary = json['attributes']['primary'] == 'true',
-        super(json['id'], json['type']);
+        super(json['id'], json['type'], json['attributes']['primary'] == 'true',
+            json['attributes']['location']);
 }
 
 class PhoneNumber extends Metadata {
   final String number;
-  final bool primary;
 
-  PhoneNumber(String id, String type, this.number, this.primary)
-      : super(id, type);
+  PhoneNumber(
+      String id, String type, bool primary, this.number, String location)
+      : super(id, type, primary, location);
 
   PhoneNumber.fromJson(Map<String, dynamic> json)
       : number = json['attributes']['number'],
-        primary = json['attributes']['primary'] == 'true',
-        super(json['id'], json['type']);
+        super(json['id'], json['type'], json['attributes']['primary'] == 'true',
+            json['attributes']['location']);
 }

@@ -6,6 +6,8 @@ import 'package:hanbit_directory/src/widgets/contact_tile_list.dart';
 class DirectoryScreen extends StatefulWidget {
   final SearchPeople searchPeople;
 
+  static const routeName = '/directory';
+
   const DirectoryScreen(this.searchPeople, {Key? key}) : super(key: key);
 
   @override
