@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1044804767976",
+    "project_id": "hanbit-6219d",
+    "storage_bucket": "hanbit-6219d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044804767976:android:4fa865d148ccc9ea66f95d",
+        "android_client_info": {
+          "package_name": "com.example.hanbit_directory"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6oYvHYh5zD02j4TLxbPS88VeMMT-zWMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
