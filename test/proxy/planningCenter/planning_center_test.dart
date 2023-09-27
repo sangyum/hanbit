@@ -4,7 +4,7 @@ import 'package:hanbit_directory/src/proxy/planningCenter/people_response.dart';
 import 'package:test/test.dart';
 
 void main() {
-  var currentDir = "${Directory.current.path}/lib/test/proxy/planningCenter";
+  var currentDir = "${Directory.current.path}/test/proxy/planningCenter";
 
   test('should deserialize people response', () {
     var filePath = "$currentDir/people_response.json";
