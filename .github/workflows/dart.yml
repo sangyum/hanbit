@@ -12,28 +12,35 @@ on:
     branches: [ "master" ]
 
 jobs:
-  build:
+  test:
+    name: "Run unit tests"
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
       - uses: subosito/flutter-action@v2
         with:
           channel: 'stable' # or: 'beta', 'dev' or 'master'
       - run: flutter --version
-      - uses: actions/setup-java@v2
-        with:
-          distribution: 'zulu'
-          java-version: '11'
-      - uses: subosito/flutter-action@v2
-        with:
-          flutter-version: '3.7.7'
       - run: flutter pub get
       - run: flutter test
+
+  build:
+    name: "Build Android client"
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+      - uses: actions/checkout@v3
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable' # or: 'beta', 'dev' or 'master'
+      - run: flutter --version
+      - run: flutter pub get
       - run: flutter build apk --dart-define=PLANNING_CENTER_APPLICATION_ID=${{ secrets.PLANNING_CENTER_APPLICATION_ID }} --dart-define=PLANNING_CENTER_SECRET=${{ secrets.PLANNING_CENTER_SECRET }}
       - run: flutter build appbundle
 
   ios-build:
+    name: "Build iOS client"
+    needs: test
     runs-on: macos-latest
     steps:
     - uses: actions/checkout@v3
@@ -42,10 +49,11 @@ jobs:
         channel: 'stable'
         architecture: x64
     - run: flutter pub get
-    - run: flutter test
     - run: flutter build ios --release --no-codesign --dart-define=PLANNING_CENTER_APPLICATION_ID=${{ secrets.PLANNING_CENTER_APPLICATION_ID }} --dart-define=PLANNING_CENTER_SECRET=${{ secrets.PLANNING_CENTER_SECRET }}
 
   macos-build:
+    name: "Build macOS client"
+    needs: test
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v3
@@ -53,5 +61,6 @@ jobs:
         with:
           channel: 'stable'
           architecture: x64
+      - run: flutter pub get
       - run: flutter config --enable-macos-desktop
       - run: flutter build macos --dart-define=PLANNING_CENTER_APPLICATION_ID=${{ secrets.PLANNING_CENTER_APPLICATION_ID }} --dart-define=PLANNING_CENTER_SECRET=${{ secrets.PLANNING_CENTER_SECRET }}
