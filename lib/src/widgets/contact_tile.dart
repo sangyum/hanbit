@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hanbit_directory/src/models/contact.dart';
+import 'package:hanbit_directory/src/widgets/phone_number_widget.dart';
 
 class ContactTile extends StatelessWidget {
   final Contact contact;
@@ -32,8 +33,8 @@ class ContactTile extends StatelessWidget {
               ),
               Column(
                 children: contact.phoneNumbers
-                    .map((phoneNumber) =>
-                        Text('${phoneNumber.number} (${phoneNumber.location})'))
+                    .map((phoneNumber) => PhoneNumberWidget(phoneNumber.e164,
+                        phoneNumber.number, phoneNumber.location))
                     .toList(),
               )
             ],

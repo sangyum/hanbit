@@ -8,8 +8,10 @@ class MockSearchPeople implements SearchPeople {
     const koreanName = "염상용";
     const englishName = "Sang Yum";
     var phoneNumbers = List.of([
-      PhoneNumber('1234', 'PhoneNumber', true, '858-555-1212', 'home'),
-      PhoneNumber('1234', 'PhoneNumber', false, '858-633-8454', 'work')
+      PhoneNumber(
+          '1234', 'PhoneNumber', true, '+18585551212', '858-555-1212', 'home'),
+      PhoneNumber(
+          '1234', 'PhoneNumber', false, '+18586338454', '858-633-8454', 'work')
     ]);
     var emails = List.of([
       Email('1234', 'Email', true, 'foo@bar.com', 'home'),

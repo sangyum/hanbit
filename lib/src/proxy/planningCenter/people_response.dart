@@ -132,14 +132,16 @@ class Email extends Metadata {
 }
 
 class PhoneNumber extends Metadata {
+  final String e164;
   final String number;
 
-  PhoneNumber(
-      String id, String type, bool primary, this.number, String location)
+  PhoneNumber(String id, String type, bool primary, this.e164, this.number,
+      String location)
       : super(id, type, primary, location);
 
   PhoneNumber.fromJson(Map<String, dynamic> json)
       : number = json['attributes']['number'],
+        e164 = json['attributes']['e164'],
         super(json['id'], json['type'], json['attributes']['primary'] == 'true',
             json['attributes']['location']);
 }

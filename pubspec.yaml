@@ -19,6 +19,7 @@ dependencies:
   json_annotation: ^4.8.1
   nock: ^1.2.3
   storybook_flutter: ^0.14.0
+  url_launcher: ^6.1.14
 
 dev_dependencies:
   flutter_test:
