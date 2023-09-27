@@ -44,38 +44,38 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAL9CbbfbeoyhxWFSYoViXxLLw7qPG0F_A',
-    appId: '1:1044804767976:web:ea37478bb9a8a7e266f95d',
-    messagingSenderId: '1044804767976',
-    projectId: 'hanbit-6219d',
-    authDomain: 'hanbit-6219d.firebaseapp.com',
-    storageBucket: 'hanbit-6219d.appspot.com',
-    measurementId: 'G-QHPR47V0YY',
+    apiKey: String.fromEnvironment('FIREBASE_WEB_APIKEY'),
+    appId: String.fromEnvironment('FIREBASE_APP_ID'),
+    messagingSenderId: String.fromEnvironment('FIREBASE_MESSAGING_SENDER_ID'),
+    projectId: String.fromEnvironment('FIREBASE_PROJECT_ID'),
+    authDomain: String.fromEnvironment('FIREBASE_AUTH_DOMAIN'),
+    storageBucket: String.fromEnvironment('FIREBASE_STORAGE_BUCKET'),
+    measurementId: String.fromEnvironment('FIREBASE_MEASUREMENT_ID'),
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyB6oYvHYh5zD02j4TLxbPS88VeMMT-zWMo',
-    appId: '1:1044804767976:android:4fa865d148ccc9ea66f95d',
-    messagingSenderId: '1044804767976',
-    projectId: 'hanbit-6219d',
-    storageBucket: 'hanbit-6219d.appspot.com',
+    apiKey: String.fromEnvironment('FIREBASE_ANDROID_APIKEY'),
+    appId: String.fromEnvironment('FIREBASE_APP_ID'),
+    messagingSenderId: String.fromEnvironment('FIREBASE_MESSAGING_SENDER_ID'),
+    projectId: String.fromEnvironment('FIREBASE_PROJECT_ID'),
+    storageBucket: String.fromEnvironment('FIREBASE_STORAGE_BUCKET'),
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAIM_MV5N0J7lWt2KzsJYICjhzjnF7IEpk',
-    appId: '1:1044804767976:ios:2527f454ab1afec466f95d',
-    messagingSenderId: '1044804767976',
-    projectId: 'hanbit-6219d',
-    storageBucket: 'hanbit-6219d.appspot.com',
-    iosBundleId: 'com.example.hanbitDirectory',
+    apiKey: String.fromEnvironment('FIREBASE_IOS_APIKEY'),
+    appId: String.fromEnvironment('FIREBASE_APP_ID'),
+    messagingSenderId: String.fromEnvironment('FIREBASE_MESSAGING_SENDER_ID'),
+    projectId: String.fromEnvironment('FIREBASE_PROJECT_ID'),
+    storageBucket: String.fromEnvironment('FIREBASE_STORAGE_BUCKET'),
+    iosBundleId: String.fromEnvironment('FIREBASE_IOS_BUNDLE_ID'),
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyAIM_MV5N0J7lWt2KzsJYICjhzjnF7IEpk',
-    appId: '1:1044804767976:ios:2d0cb4b24af14e0966f95d',
-    messagingSenderId: '1044804767976',
-    projectId: 'hanbit-6219d',
-    storageBucket: 'hanbit-6219d.appspot.com',
-    iosBundleId: 'com.example.hanbitDirectory.RunnerTests',
+    apiKey: String.fromEnvironment('FIREBASE_MACOS_APIKEY'),
+    appId: String.fromEnvironment('FIREBASE_APP_ID'),
+    messagingSenderId: String.fromEnvironment('FIREBASE_MESSAGING_SENDER_ID'),
+    projectId: String.fromEnvironment('FIREBASE_PROJECT_ID'),
+    storageBucket: String.fromEnvironment('FIREBASE_STORAGE_BUCKET'),
+    iosBundleId: String.fromEnvironment('FIREBASE_MACOS_BUNDLE_ID'),
   );
 }
