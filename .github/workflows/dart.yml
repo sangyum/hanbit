@@ -65,6 +65,14 @@ jobs:
       - run: flutter pub get
       - run: flutter build apk
       - run: flutter build appbundle
+      - run: ls build/app/outputs/flutter-apk
+      - name: Upload artifact to Firebase App Distribution
+        uses: wzieba/Firebase-Distribution-Github-Action@v1
+        with:
+          appId: ${{secrets.FIREBASE_APP_ID}}
+          serviceCredentialsFileContent: ${{secrets.FIREBASE_PRIVATE_KEY}}
+          groups: sparrow_team
+          file: build/app/outputs/flutter-apk/app-debug.apk
 
   ios-build:
     name: "Build iOS client"
