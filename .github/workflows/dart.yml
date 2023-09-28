@@ -69,8 +69,8 @@ jobs:
       - run: flutter --version
       - run: flutter pub get
       - run: flutter build apk --dart-define-from-file=.env
-      - run: flutter build appbundle
-      - run: ls build/app/outputs/flutter-apk --dart-define-from-file=.env
+      - run: flutter build appbundle --dart-define-from-file=.env
+      - run: ls build/app/outputs/flutter-apk
 
       - name: Upload artifact to Firebase App Distribution
         uses: wzieba/Firebase-Distribution-Github-Action@v1
@@ -118,6 +118,7 @@ jobs:
       - run: flutter --version
       - run: flutter pub get
       - run: flutter build ios --release --no-codesign  --dart-define-from-file=.env
+      - run: ls build/ios/iphoneos
 
   macos-build:
     name: "Build macOS client"
@@ -157,7 +158,8 @@ jobs:
       - run: flutter pub get
       - run: flutter config --enable-macos-desktop
       - run: flutter build macos --dart-define-from-file=.env
-
+      - run: ls build/macos/Build/Products
+      
   web-build:
     name: "Build web client"
     needs: test
