@@ -32,6 +32,22 @@ jobs:
     name: "Run unit tests"
     runs-on: ubuntu-latest
     steps:
+      - name: echo env variables
+        run:  |
+          echo "$PLANNING_CENTER_APPLICATION_ID"
+          echo "$PLANNING_CENTER_SECRET"
+          echo "$FIREBASE_WEB_API_KEY"
+          echo "$FIREBASE_ANDROID_API_KEY"
+          echo "$FIREBASE_IO_API_KEY"
+          echo "$FIREBASE_MACOS_API_KEY"
+          echo "$FIREBASE_APP_ID"
+          echo "$FIREBASE_MESSAGING_SENDER_ID"
+          echo "$FIREBASE_PROJECT_ID"
+          echo "$FIREBASE_AUTH_DOMAIN"
+          echo "$FIREBASE_STORAGE_BUCKET"
+          echo "$FIREBASE_IOS_BUNDLE_ID"
+          echo "$FIREBASE_MACOS_BUNDLE_ID"
+      
       - uses: actions/checkout@v3
       - uses: subosito/flutter-action@v2
         with:
