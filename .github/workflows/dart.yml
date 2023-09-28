@@ -69,9 +69,10 @@ jobs:
       - name: Upload artifact to Firebase App Distribution
         uses: wzieba/Firebase-Distribution-Github-Action@v1
         with:
-          appId: ${{secrets.FIREBASE_APP_ID}}
-          serviceCredentialsFileContent: ${{secrets.FIREBASE_PRIVATE_KEY}}
+          appId: ${{ secrets.FIREBASE_APP_ID }}
+          serviceCredentialsFileContent: ${{ secrets.FIREBASE_PRIVATE_KEY }}
           groups: alpha-users
+          debug: true
           file: build/app/outputs/flutter-apk/app-release.apk
 
   ios-build:
